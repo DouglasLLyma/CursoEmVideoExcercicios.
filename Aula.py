@@ -20,8 +20,8 @@
 # print(n)
 
 # Usando o metodo 'isnumeric' é possivel saber se um valor str pode ser convertido para int, por exemplo.
-n = input('Digite Algo: ')
-print(n.isnumeric())
+# n = input('Digite Algo: ')
+# print(n.isnumeric())
 
 # Usando o metodo 'alpha' podemos constatar se é uma palavra ou não.
 # n = input('Digite Algo: ')
@@ -32,3 +32,36 @@ print(n.isnumeric())
 # print(n.isalnum())
 
 # Existem vários tipos de metodo 'is', geralmente esse metodo é usando para testar tipos no python.
+
+# AULA - 07 Operações Aritmética.
+# + Adição
+# - Subtração
+# * Multiplicação
+# / Divisão
+# ** Potência
+# // Divisão Inteira
+# % Resto da Divisão
+# = Sinal de atribuição(recebe)
+# == Sinal de 'Igual'
+
+# Ordem de Precedência
+# 1° ()
+# 2° **
+# 3° *, /, //, %
+# 4° + , -
+
+n1 = 5
+n2 = 2
+n3 = 3
+procedencia = (n1 + n3 * n2)
+print('Nessa operação primeiro faremos {} * {} + {} que é igual a {}'.format(n3,n2,n1,procedencia))
+print('Resultado;'
+    '\nSoma= {}'
+    '\nSubtração= {}'
+    '\nMultiplicação= {}'
+    '\nDivisão= {}'
+    '\nPotência= {}'
+    '\nDivisão Inteira= {}'
+    '\nResto da Divisão= {}'
+    .format(n1+n2, n1-n2, n1*n2, n1/n2, n1**n2, n1//n2, n1%n2))
+
