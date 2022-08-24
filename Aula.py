@@ -49,19 +49,24 @@
 # 2° **
 # 3° *, /, //, %
 # 4° + , -
-
-n1 = 5
-n2 = 2
-n3 = 3
-procedencia = (n1 + n3 * n2)
-print('Nessa operação primeiro faremos {} * {} + {} que é igual a {}'.format(n3,n2,n1,procedencia))
-print('Resultado;'
-    '\nSoma= {}'
-    '\nSubtração= {}'
-    '\nMultiplicação= {}'
-    '\nDivisão= {}'
-    '\nPotência= {}'
-    '\nDivisão Inteira= {}'
-    '\nResto da Divisão= {}'
-    .format(n1+n2, n1-n2, n1*n2, n1/n2, n1**n2, n1//n2, n1%n2))
-
+#
+# n1 = 5
+# n2 = 2
+# n3 = 3
+# procedencia = (n1 + n3 * n2)
+# print('Nessa operação primeiro faremos {} * {} + {} que é igual a {}'.format(n3,n2,n1,procedencia))
+# print('Resultado;'
+#     '\nSoma= {}'
+#     '\nSubtração= {}'
+#     '\nMultiplicação= {}'
+#     '\nDivisão= {}'
+#     '\nPotência= {}'
+#     '\nDivisão Inteira= {}'
+#     '\nResto da Divisão= {}'
+#     .format(n1+n2, n1-n2, n1*n2, n1/n2, n1**n2, n1//n2, n1%n2))
+#
+# nome = input('Qual o seu nome? ')
+# print('Prazer em te Conhecer {:$^20}!'.format(nome))
+# n1 = int(input('Digite um valor: '))
+# n2 = int(input('Digite um valor: '))
+# print('A soma vale {}'.format(n1+n2))
