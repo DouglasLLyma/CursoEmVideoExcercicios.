@@ -1,16 +1,17 @@
 # Faça um programa que leia um número Inteiro qualquer e
 # mostre sua tabuada
 n = int(input('Digite um número: '))
-print('1 X {} = {}\n'
-      '2 X {} = {}\n'
-      '3 X {} = {}\n'
-      '4 X {} = {}\n'
-      '5 X {} = {}\n'
-      '6 X {} = {}\n'
-      '7 x {} = {}\n'
-      '8 x {} = {}\n'
-      '9 X {} = {}\n'
-      '10X {} = {}\n'
+print('='*13)
+print('{} X 1  = {}\n'
+      '{} X 2  = {}\n'
+      '{} X 3  = {}\n'
+      '{} X 4  = {}\n'
+      '{} X 5  = {}\n'
+      '{} X 6  = {}\n'
+      '{} x 7  = {}\n'
+      '{} x 8  = {}\n'
+      '{} X 9  = {}\n'
+      '{} X 10 = {}'
       .format(n,(n*1),
               n,(n*2),
               n,(n*3),
@@ -21,3 +22,4 @@ print('1 X {} = {}\n'
               n,(n*8),
               n,(n*9),
               n,(n*10)))
+print('='*13)
